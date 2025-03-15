@@ -7,11 +7,11 @@
      runs-on: ubuntu-latest
      steps:
        - name: Print Greeting
-         run: 
+         run: |
            echo "Started Workflow"
            echo "Hello World!"
        - name: Print Goodbye
-         run: 
+         run: |
            echo "Ending Workflow"
            echo "Done - bye!"
       
